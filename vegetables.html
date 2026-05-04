@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Zone - Vegetables</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="vegetables.css">
+</head>
+<body>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<div class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+        <div class="sidebar-logo">
+            <img src="kids zone logo.png" alt="Kids Zone Logo" class="sidebar-logo-img">
+            <span>Kids Zone</span>
+        </div>
+        <button class="sidebar-close" id="sidebarClose">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+   <ul class="sidebar-nav">
+        <li><a href="index.html" class="sidebar-link"><i class="fas fa-home"></i> <span>Home</span></a></li>
+        <li><a href="Alphabets(a-z).html" class="sidebar-link"><i class="fas fa-font"></i> <span>Alphabets</span></a></li>
+        <li><a href="animal.html" class="sidebar-link"><i class="fas fa-paw"></i> <span>Animals</span></a></li>
+        <li><a href="vegetables.html" class="sidebar-link active"><i class="fas fa-carrot"></i> <span>Vegetables</span></a></li>
+        <li><a href="InWordsCounting.html" class="sidebar-link"><i class="fas fa-calculator"></i> <span>Counting</span></a></li>
+        <li><a href="NurseryRhymes.html" class="sidebar-link"><i class="fas fa-music"></i> <span>Rhymes</span></a></li>
+        <li><a href="ColorNames.html" class="sidebar-link"><i class="fas fa-palette"></i> <span>Colors Names</span></a></li>
+        <li><a href="tables(2-10).html" class="sidebar-link"><i class="fas fa-table"></i> <span>Tables</span></a></li>
+        <li><a href="DaysAndMonths.html" class="sidebar-link"><i class="fas fa-calendar-alt"></i> <span>Days & Months</span></a></li>
+    </ul>
+    <div class="sidebar-footer">
+        <p>Learn • Play • Grow</p>
+    </div>
+</div>
+
+<header class="kids-header">
+    <div class="header-container">
+        <div class="logo-area">
+            <div class="logo-wrapper">
+                <img src="kids zone logo.png" alt="Kids Zone Logo" class="header-logo">
+            </div>
+            <div class="brand-text">
+                <h1 class="brand-name">Kids Zone</h1>
+                <p class="brand-tagline">Learn • Play • Grow</p>
+            </div>
+        </div>
+        <nav class="header-nav">
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> <span>Home</span></a></li>
+                <li><a href="Alphabets(a-z).html" class="nav-link"><i class="fas fa-font"></i> <span>Alphabets</span></a></li>
+                <li><a href="animal.html" class="nav-link"><i class="fas fa-paw"></i> <span>Animals</span></a></li>
+                <li><a href="vegetables.html" class="nav-link"><i class="fas fa-carrot"></i> <span>Vegetables</span></a></li>
+                <li><a href="InWordsCounting.html" class="nav-link"><i class="fas fa-calculator"></i> <span>Counting</span></a></li>
+                <li><a href="NurseryRhymes.html" class="nav-link"><i class="fas fa-music"></i> <span>Rhymes</span></a></li>
+                <li><a href="ColorNames.html" class="nav-link"><i class="fas fa-palette"></i> <span>Colors</span></a></li>
+                <li><a href="tables(2-10).html" class="nav-link"><i class="fas fa-table"></i> <span>Tables</span></a></li>
+                <li><a href="DaysAndMonths.html" class="nav-link"><i class="fas fa-calendar-alt"></i> <span>Days & Months</span></a></li>
+            </ul>
+        </nav>
+        <button class="mobile-menu-toggle" id="mobileMenuToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+</header>
+<div class="page-banner">
+    <h1><i class="fas fa-carrot"></i> Let's Learn Vegetables! <i class="fas fa-star"></i></h1>
+    <p>Tap any vegetable to hear its name 🔊</p>
+</div>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-3 mb-4">
+            <div class="card" data-name="Carrot">
+                <button class="speaker-btn"><i class="fas fa-volume-up"></i></button>
+                <img src="carrot.jfif" alt="Carrot">
+                <h4>Carrot</h4>
+                <p>Good for your Eyes</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card" data-name="Tomato">
+                <button class="speaker-btn"><i class="fas fa-volume-up"></i></button>
+                <img src="tomato.jfif" alt="Tomato">
+                <h4>Tomato</h4>
+                <p>Red and Juicy</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card" data-name="Potato">
+                <button class="speaker-btn"><i class="fas fa-volume-up"></i></button>
+                <img src="potato.jfif" alt="Potato">
+                <h4>Potato</h4>
+                <p>Makes Yummy Fries!</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card" data-name="Onion">
+                <button class="speaker-btn"><i class="fas fa-volume-up"></i></button>
+                <img src="onion.jfif" alt="Onion">
+                <h4>Onion</h4>
+                <p>Makes You Cry!</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card" data-name="Spinach">
+                <button class="speaker-btn"><i class="fas fa-volume-up"></i></button>
+                <img src="spinach.jfif" alt="Spinach">
+                <h4>Spinach</h4>
+                <p>Makes You Strong</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card" data-name="Broccoli">
+                <button class="speaker-btn"><i class="fas fa-volume-up"></i></button>
+                <img src="broccoli.jfif" alt="Broccoli">
+                <h4>Broccoli</h4>
+                <p>Like a Mini Tree!</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card" data-name="Cucumber">
+                <button class="speaker-btn"><i class="fas fa-volume-up"></i></button>
+                <img src="cucumber.jfif" alt="Cucumber">
+                <h4>Cucumber</h4>
+                <p>Cool and Crunchy</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card" data-name="Pumpkin">
+                <button class="speaker-btn"><i class="fas fa-volume-up"></i></button>
+                <img src="pumpkin.jfif" alt="Pumpkin">
+                <h4>Pumpkin</h4>
+                <p>Big and Orange</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card" data-name="Peas">
+                <button class="speaker-btn"><i class="fas fa-volume-up"></i></button>
+                <img src="peas.jpg" alt="Peas">
+                <h4>Peas</h4>
+                <p>Tiny Green Balls</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card" data-name="Corn">
+                <button class="speaker-btn"><i class="fas fa-volume-up"></i></button>
+                <img src="corn.jfif" alt="Corn">
+                <h4>Corn</h4>
+                <p>Yellow and Sweet</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card" data-name="Cabbage">
+                <button class="speaker-btn"><i class="fas fa-volume-up"></i></button>
+                <img src="cabbage.jfif" alt="Cabbage">
+                <h4>Cabbage</h4>
+                <p>Round and Green</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card" data-name="Eggplant">
+                <button class="speaker-btn"><i class="fas fa-volume-up"></i></button>
+                <img src="eggplant.png" alt="Eggplant">
+                <h4>Eggplant</h4>
+                <p>Purple and Shiny</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card" data-name="Garlic">
+                <button class="speaker-btn"><i class="fas fa-volume-up"></i></button>
+                <img src="garlic.jfif" alt="Garlic">
+                <h4>Garlic</h4>
+                <p>Strong Smell!</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card" data-name="Cauliflower">
+                <button class="speaker-btn"><i class="fas fa-volume-up"></i></button>
+                <img src="cauliflower.jfif" alt="Cauliflower">
+                <h4>Cauliflower</h4>
+                <p>White and Fluffy</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card" data-name="Radish">
+                <button class="speaker-btn"><i class="fas fa-volume-up"></i></button>
+                <img src="raddish.jfif" alt="Radish">
+                <h4>Radish</h4>
+                <p>Crunchy and Spicy</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+<footer class="kids-footer">
+    <div class="container-fluid text-center">
+        <h2 class="footer-heading">Kids Zone</h2>
+        <p class="tagline">Learn • Play • Grow</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="Alphabets(a-z).html">Alphabets</a>
+            <a href="animal.html">Animals</a>
+            <a href="vegetables.html">Vegetables</a>
+            <a href="tables(2-10).html">Tables</a>
+            <a href="NurseryRhymes.html">Rhymes</a>
+            <a href="ColorNames.html">Colors</a>
+            <a href="InWordsCounting.html">Counting</a>
+             <a href="DaysAndMonths.html">Days & Months</a>
+        </div>
+        <div class="footer-icons">
+            <i class="fas fa-carrot"></i>
+            <i class="fas fa-book"></i>
+            <i class="fas fa-music"></i>
+            <i class="fas fa-crayon"></i>
+        </div>
+        <p class="copyright">© 2026 Kids Zone</p>
+    </div>
+</footer>
+
+<script src="vegetables.js"></script>
+</body>
+</html>
